@@ -1,0 +1,24 @@
+#footer-omf {
+    
+    background-color: rgb(78, 78, 78);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    
+    h1 {
+        font-family: 'Shrikhand', cursive;
+        font-size:large
+    }
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 10px;
+
+        i {
+            margin-right: 10px;
+        }
+    }
+}

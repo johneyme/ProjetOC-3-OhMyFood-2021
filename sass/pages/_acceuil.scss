@@ -1,3 +1,9 @@
+main {
+    h2 {
+        margin-left: 25px;
+    }
+}
+
 #localisation  {
     background-color: rgba(128, 128, 128, 0.164);
     text-align: center;
@@ -13,18 +19,94 @@
     padding: 7%;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.082);
+    
+    .cta-btn {
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.212);
+        width: 250px;
+        height: 50px;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        background: linear-gradient($color-secondary, $color-primary);
+        text-decoration: none;
+        border:  none;
+    }
 }
 
 #fonctionnement{
+    padding-bottom: 50px;
+    padding-top: 25px;
     .fonctionnement-case {
-        text-align: center;
+
         background-color: rgba(128, 128, 128, 0.082);
         box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.219);
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 10px;
         padding: 15px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 25px;
         width: 75%;
+        display: flex;
+        font-weight: bold;
+        
+        &__numbercolor {
+            background-color: $color-primary;
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        &:hover {
+            background-color: lighten($color-primary, 30%);
+        }
+
+        i {
+            margin-right: 25px;
+            margin-left: 25px;
+            color: $color-primary;
+        }
     }
+}
+
+#restaurants {
+    padding-top: 20px;
+   background-color: rgba(128, 128, 128, 0.082);
+   padding-bottom: 50px;
+
+    .restaurant-card {
+        margin: auto;
+        margin-top: 25px;
+        border-radius: 25px;
+        width: 85%;
+        
+        box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.219);
+
+        &__informationcard {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__leftside {
+            margin-left: 25px;
+           
+        }
+
+        &__logo {
+            margin-top: 25px;
+            margin-right: 30px;
+            font-size:x-large;
+            color: gray;
+        }
+        
+        img {
+            max-width: 100%;
+            
+            border-radius: 25px 25px 0 0;
+          
+        }
+    }
+    
 }
