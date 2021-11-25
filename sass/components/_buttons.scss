@@ -10,11 +10,16 @@
     border-radius: 25px;
     color: white;
     font-weight: bold;
-    background: linear-gradient($color-secondary, $color-primary);
+    background: $color-gradient;
     text-decoration: none;
     border:  none;
     text-align: center;
-    
 
+    &:hover {
+        background: $color-gradient-lighten;
+        cursor:pointer;
+    }
         }
+        
+        
 }
