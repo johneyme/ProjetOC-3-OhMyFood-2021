@@ -7,4 +7,11 @@
         margin-bottom: 15px;
         width: 45%;
     }
+
+    @media (min-width: 599px){
+        img{
+            width: 200px;
+        }
+    }
 }
+

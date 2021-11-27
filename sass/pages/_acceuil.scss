@@ -36,6 +36,13 @@ main {
 #fonctionnement{
     padding-bottom: 50px;
     padding-top: 25px;
+    .fonctionnement-container {
+        @media (min-width: 599px){
+            width: 40%;
+            margin: auto;
+        }
+    }
+    
     .fonctionnement-case {
 
         background-color: rgba(128, 128, 128, 0.082);
@@ -75,14 +82,28 @@ main {
     padding-top: 20px;
    background-color: rgba(128, 128, 128, 0.082);
    padding-bottom: 50px;
+   
+   .restaurants-container {
+    @media (min-width: 599px){
+        display: flex;
+        width: 500px;
+        margin: auto;
+
+    }
+   }
+
+   a {
+   text-decoration: none;
+    color: black}
 
     .restaurant-card {
+    
         margin: auto;
         margin-top: 25px;
         border-radius: 25px;
         width: 85%;
-        
         box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.219);
+        
 
         &__informationcard {
             display: flex;

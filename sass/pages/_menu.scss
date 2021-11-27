@@ -37,6 +37,7 @@
 
     
     margin: 5%;
+    
     h2 {
       width: 40px;
       border-bottom: 3px $color-tertiary solid;
@@ -66,7 +67,11 @@
         }
       }
       &__animation {
-            @include animation-validation
+            width: 1px;
+            i{
+              display: none;
+            }
+            
      
       }
 

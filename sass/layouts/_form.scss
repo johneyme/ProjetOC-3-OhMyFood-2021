@@ -6,6 +6,13 @@
     flex-direction: column;
     padding-left: 25px;
     padding-bottom: 25px;
+    @media (min-width: 599px){
+        justify-content: space-around;
+        flex-direction: row;
+        a {
+            margin-top: 15px;
+        }
+    }
     
     h1 {
         font-family: 'Shrikhand', cursive;
