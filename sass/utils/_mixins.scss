@@ -4,7 +4,12 @@
         color: white;
         background-color: $color-tertiary;
         border-radius: 0 10px 10px 0;
-        width: 75px;
+        width: 0px;
         padding-top: 25px;
+        transition: width 300ms;
+      i {
+            display: none;
+            
+      }
   }
   
